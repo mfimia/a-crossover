@@ -15,7 +15,11 @@ const AddNewMessage = () => {
     getUsers();
   }, []);
 
-  const handleChange = (e) => setText(e.target.value);
+  const handleChange = (e) => {
+    const { name } = e.target;
+    if (name === "text") setText(e.target.value);
+    else setAuthor(e.target.value);
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -46,14 +50,24 @@ const AddNewMessage = () => {
           value={text}
         />
       </div>
-      <select className="uk-select" name="author" id="author">
+      <select
+        onChange={handleChange}
+        value={author}
+        className="uk-select"
+        name="author"
+        id="author"
+      >
         {users.map((user) => (
-          <option value={user._id}>{user.username}</option>
+          <option key={user._id} value={user._id}>
+            {user.username}
+          </option>
         ))}
       </select>
-      <button onSubmit={handleSubmit} className="uk-button uk-button-default">
-        Add user
-      </button>
+      <div className="uk-margin">
+        <button onSubmit={handleSubmit} className="uk-button uk-button-default">
+          Post message
+        </button>
+      </div>
     </form>
   );
 };
