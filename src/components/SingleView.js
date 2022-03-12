@@ -4,6 +4,6 @@ const SingleView = () => {
       <h2>Titel</h2>
       <p>Text ...</p>
     </div>
-  )
-}
-export default SingleView
+  );
+};
+export default SingleView;
