@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "622a56dd966f50cec53a39f7",
+    "username": "test",
+    "handle": "@handle",
+    "avatar": "https://th.bing.com/th/id/OIP.sJhiNQZoqAiaGJusJ_M37wHaHa?pid=ImgDet&rs=1"
+  },
+  {
+    "_id": "622c61ef8d34524a5df041f8",
+    "username": "someone",
+    "handle": "@example",
+    "avatar": "https://th.bing.com/th/id/OIP.sJhiNQZoqAiaGJusJ_M37wHaHa?pid=ImgDet&rs=1"
+  },
+  {
+    "_id": "622c67bfc811d757585a26a0",
+    "username": "susan",
+    "handle": "@jenkins",
+    "avatar": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+  },
+  {
+    "_id": "622c6802c811d757585a26a3",
+    "username": "bob",
+    "handle": "@nobob",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+  }
+]
