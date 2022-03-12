@@ -70,6 +70,7 @@ function App() {
         <nav>
           <ul className="uk-list">
             <li>
+              <span className="uk-icon uk-margin-small-right" data-uk-icon="home"></span>
               <NavLink to="/">Home</NavLink>
             </li>
             <li>
